@@ -232,6 +232,83 @@ section {
     padding: 1rem 0;
 }
 
+@media (max-width: 1295px) {
+    section {
+        padding: 2rem 1rem;
+    }
+   
+    .home-container section {
+        min-height: 60vh;
+        margin-top: 4rem;
+    } 
+    
+    .header section {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    
+    .container {
+        text-align: left;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .home-img img {
+            width: 350px;
+            height: 350px;
+            margin-bottom: 4rem;
+            margin-left: 2rem;       
+    }   
+    
+    .address .mesa {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .address .map {
+        width: 500px;
+        margin-left: 2rem;
+    }  
+}
+
+@media (max-width: 1070px) {
+    .address .map {
+        width: 400px;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 970px) {
+    .home-container {
+        margin-top: 2rem;
+    }
+    .address .mesa {
+        display: none;
+    }
+
+    .navbar a {
+        margin: 0 2rem;
+        font-size: 1.8rem;
+    }
+
+    .address .map {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem
+    }
+}
+
+@media (max-width: 825px) {
+    .home-img img {
+        display: none;
+    }
+
+    .home-container section {
+        min-height: 60vh;
+    } 
+}
 
 @media (max-width: 768px) {
 
@@ -244,10 +321,6 @@ section {
         display: inline-block;
         text-align:center;
         margin: 0 30px;
-    }
-
-    .home-img img {
-        display: none;
     }
 
     .container {
@@ -271,12 +344,10 @@ section {
     }
 
     .address .map {
+        width: 300px;
+        height: 300px;
         display: flex;
         align-items: center;
-    }
-
-    .address .mesa {
-        display: none;
     }
 
     #burguer {
